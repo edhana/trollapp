@@ -1,0 +1,15 @@
+.user {
+	background: #eee;
+	float: left;
+	height: 80px;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	width: 80px;
+	-moz-border-radius: 10px 10px;
+	-web-border-radius: 10px 10px;
+	border-radius: 10px 10px;
+	-moz-box-shadow: 2px 2px 2px #999;
+	-web-box-shadow: 2px 2px 2px #999;
+	box-shadow: 2px 2px 2px #999;
+}

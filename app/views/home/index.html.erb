@@ -1,0 +1,12 @@
+<% unless logged_in? %>
+	<%= link_to 'Clique aqui para saber mais a respeito', '/auth/twitter' %>
+<% else %>
+	<%= link_to 'Logout', logout_path %>
+<% end %>
+<h1>Quem já foi trollado:</h1>
+<% @users.each do |user| %>
+	<div class="user">
+		<%= image_tag user.image %>
+		<%= user.nickname %>
+	</div>
+<% end %>
